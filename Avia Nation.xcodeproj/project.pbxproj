@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE91EF382C2B018F00518D5F /* Avia_NationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE91EF372C2B018F00518D5F /* Avia_NationApp.swift */; };
+		EE91EF3A2C2B018F00518D5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE91EF392C2B018F00518D5F /* ContentView.swift */; };
+		EE91EF3C2C2B019200518D5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE91EF3B2C2B019200518D5F /* Assets.xcassets */; };
+		EE91EF3F2C2B019200518D5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE91EF3E2C2B019200518D5F /* Preview Assets.xcassets */; };
+		EE91EF482C2B3C5500518D5F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE91EF472C2B3C5500518D5F /* HomeView.swift */; };
+		EE91EF4E2C2B421500518D5F /* ProgressItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE91EF4D2C2B421500518D5F /* ProgressItem.swift */; };
+		EE91EF502C2B422500518D5F /* ProgressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE91EF4F2C2B422500518D5F /* ProgressViewModel.swift */; };
+		EE91EF522C2B42B000518D5F /* ProgressCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE91EF512C2B42B000518D5F /* ProgressCardsView.swift */; };
+		EE91EF542C2B464200518D5F /* Lalezar-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE91EF532C2B464200518D5F /* Lalezar-Regular.ttf */; };
+		EE91EF5C2C2B4B4200518D5F /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE91EF5B2C2B4B4200518D5F /* GameViewModel.swift */; };
+		EE91EF5E2C2B4B5C00518D5F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE91EF5D2C2B4B5C00518D5F /* GameScene.swift */; };
+		EE91EF602C2B6F0600518D5F /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE91EF5F2C2B6F0600518D5F /* GameView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE91EF342C2B018F00518D5F /* Avia Nation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Avia Nation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE91EF372C2B018F00518D5F /* Avia_NationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avia_NationApp.swift; sourceTree = "<group>"; };
+		EE91EF392C2B018F00518D5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE91EF3B2C2B019200518D5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE91EF3E2C2B019200518D5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE91EF472C2B3C5500518D5F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EE91EF4D2C2B421500518D5F /* ProgressItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressItem.swift; sourceTree = "<group>"; };
+		EE91EF4F2C2B422500518D5F /* ProgressViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewModel.swift; sourceTree = "<group>"; };
+		EE91EF512C2B42B000518D5F /* ProgressCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCardsView.swift; sourceTree = "<group>"; };
+		EE91EF532C2B464200518D5F /* Lalezar-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lalezar-Regular.ttf"; sourceTree = "<group>"; };
+		EE91EF552C2B464C00518D5F /* Avia-Nation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Avia-Nation-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EE91EF5B2C2B4B4200518D5F /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		EE91EF5D2C2B4B5C00518D5F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		EE91EF5F2C2B6F0600518D5F /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE91EF312C2B018F00518D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE91EF2B2C2B018F00518D5F = {
+			isa = PBXGroup;
+			children = (
+				EE91EF362C2B018F00518D5F /* Avia Nation */,
+				EE91EF352C2B018F00518D5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE91EF352C2B018F00518D5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE91EF342C2B018F00518D5F /* Avia Nation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE91EF362C2B018F00518D5F /* Avia Nation */ = {
+			isa = PBXGroup;
+			children = (
+				EE91EF552C2B464C00518D5F /* Avia-Nation-Info.plist */,
+				EE91EF532C2B464200518D5F /* Lalezar-Regular.ttf */,
+				EE91EF452C2B3B8100518D5F /* ComponentViews */,
+				EE91EF372C2B018F00518D5F /* Avia_NationApp.swift */,
+				EE91EF392C2B018F00518D5F /* ContentView.swift */,
+				EE91EF3B2C2B019200518D5F /* Assets.xcassets */,
+				EE91EF3D2C2B019200518D5F /* Preview Content */,
+			);
+			path = "Avia Nation";
+			sourceTree = "<group>";
+		};
+		EE91EF3D2C2B019200518D5F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE91EF3E2C2B019200518D5F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE91EF452C2B3B8100518D5F /* ComponentViews */ = {
+			isa = PBXGroup;
+			children = (
+				EE91EF562C2B4B1600518D5F /* Game */,
+				EE91EF492C2B415E00518D5F /* Progress */,
+				EE91EF462C2B3C2800518D5F /* HomeView */,
+			);
+			path = ComponentViews;
+			sourceTree = "<group>";
+		};
+		EE91EF462C2B3C2800518D5F /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				EE91EF472C2B3C5500518D5F /* HomeView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		EE91EF492C2B415E00518D5F /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				EE91EF4C2C2B41F600518D5F /* Model */,
+				EE91EF4B2C2B416E00518D5F /* VM */,
+				EE91EF4A2C2B416900518D5F /* View */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		EE91EF4A2C2B416900518D5F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE91EF512C2B42B000518D5F /* ProgressCardsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE91EF4B2C2B416E00518D5F /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				EE91EF4F2C2B422500518D5F /* ProgressViewModel.swift */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		EE91EF4C2C2B41F600518D5F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE91EF4D2C2B421500518D5F /* ProgressItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE91EF562C2B4B1600518D5F /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				EE91EF5A2C2B4B3800518D5F /* View */,
+				EE91EF582C2B4B2D00518D5F /* Scene */,
+				EE91EF572C2B4B2900518D5F /* VM */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		EE91EF572C2B4B2900518D5F /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				EE91EF5B2C2B4B4200518D5F /* GameViewModel.swift */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		EE91EF582C2B4B2D00518D5F /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				EE91EF5D2C2B4B5C00518D5F /* GameScene.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		EE91EF5A2C2B4B3800518D5F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE91EF5F2C2B6F0600518D5F /* GameView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE91EF332C2B018F00518D5F /* Avia Nation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE91EF422C2B019200518D5F /* Build configuration list for PBXNativeTarget "Avia Nation" */;
+			buildPhases = (
+				EE91EF302C2B018F00518D5F /* Sources */,
+				EE91EF312C2B018F00518D5F /* Frameworks */,
+				EE91EF322C2B018F00518D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Avia Nation";
+			productName = "Avia Nation";
+			productReference = EE91EF342C2B018F00518D5F /* Avia Nation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE91EF2C2C2B018F00518D5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					EE91EF332C2B018F00518D5F = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = EE91EF2F2C2B018F00518D5F /* Build configuration list for PBXProject "Avia Nation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE91EF2B2C2B018F00518D5F;
+			productRefGroup = EE91EF352C2B018F00518D5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE91EF332C2B018F00518D5F /* Avia Nation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE91EF322C2B018F00518D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE91EF542C2B464200518D5F /* Lalezar-Regular.ttf in Resources */,
+				EE91EF3F2C2B019200518D5F /* Preview Assets.xcassets in Resources */,
+				EE91EF3C2C2B019200518D5F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE91EF302C2B018F00518D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE91EF5C2C2B4B4200518D5F /* GameViewModel.swift in Sources */,
+				EE91EF482C2B3C5500518D5F /* HomeView.swift in Sources */,
+				EE91EF5E2C2B4B5C00518D5F /* GameScene.swift in Sources */,
+				EE91EF4E2C2B421500518D5F /* ProgressItem.swift in Sources */,
+				EE91EF602C2B6F0600518D5F /* GameView.swift in Sources */,
+				EE91EF3A2C2B018F00518D5F /* ContentView.swift in Sources */,
+				EE91EF502C2B422500518D5F /* ProgressViewModel.swift in Sources */,
+				EE91EF382C2B018F00518D5F /* Avia_NationApp.swift in Sources */,
+				EE91EF522C2B42B000518D5F /* ProgressCardsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EE91EF402C2B019200518D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE91EF412C2B019200518D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE91EF432C2B019200518D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Avia Nation/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Avia-Nation-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamenation.Avia-Nation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE91EF442C2B019200518D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Avia Nation/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Avia-Nation-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamenation.Avia-Nation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE91EF2F2C2B018F00518D5F /* Build configuration list for PBXProject "Avia Nation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE91EF402C2B019200518D5F /* Debug */,
+				EE91EF412C2B019200518D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE91EF422C2B019200518D5F /* Build configuration list for PBXNativeTarget "Avia Nation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE91EF432C2B019200518D5F /* Debug */,
+				EE91EF442C2B019200518D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE91EF2C2C2B018F00518D5F /* Project object */;
+}
