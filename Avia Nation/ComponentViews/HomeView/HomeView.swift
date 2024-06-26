@@ -48,7 +48,8 @@ struct HomeView: View {
                 }
                 .padding(.horizontal)
                 Spacer()
-                NavigationLink(destination: EmptyView()) {
+                NavigationLink(destination: GameView()
+                    .navigationBarBackButtonHidden(true)) {
                     Image("game_button")
                 }
                 HStack {
