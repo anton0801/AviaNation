@@ -19,6 +19,9 @@
 		EE91EF5C2C2B4B4200518D5F /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE91EF5B2C2B4B4200518D5F /* GameViewModel.swift */; };
 		EE91EF5E2C2B4B5C00518D5F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE91EF5D2C2B4B5C00518D5F /* GameScene.swift */; };
 		EE91EF602C2B6F0600518D5F /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE91EF5F2C2B6F0600518D5F /* GameView.swift */; };
+		EE91EF932C2C760100518D5F /* WinNodeGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE91EF922C2C760100518D5F /* WinNodeGameView.swift */; };
+		EE91EF952C2C788600518D5F /* LoseNodeGameVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE91EF942C2C788600518D5F /* LoseNodeGameVIew.swift */; };
+		EE91EF972C2C7AB700518D5F /* PauseNodeGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE91EF962C2C7AB700518D5F /* PauseNodeGameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		EE91EF5B2C2B4B4200518D5F /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		EE91EF5D2C2B4B5C00518D5F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		EE91EF5F2C2B6F0600518D5F /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		EE91EF922C2C760100518D5F /* WinNodeGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinNodeGameView.swift; sourceTree = "<group>"; };
+		EE91EF942C2C788600518D5F /* LoseNodeGameVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseNodeGameVIew.swift; sourceTree = "<group>"; };
+		EE91EF962C2C7AB700518D5F /* PauseNodeGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseNodeGameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +148,7 @@
 		EE91EF562C2B4B1600518D5F /* Game */ = {
 			isa = PBXGroup;
 			children = (
+				EE91EF8E2C2C75C300518D5F /* Results */,
 				EE91EF5A2C2B4B3800518D5F /* View */,
 				EE91EF582C2B4B2D00518D5F /* Scene */,
 				EE91EF572C2B4B2900518D5F /* VM */,
@@ -171,6 +178,40 @@
 				EE91EF5F2C2B6F0600518D5F /* GameView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		EE91EF8E2C2C75C300518D5F /* Results */ = {
+			isa = PBXGroup;
+			children = (
+				EE91EF912C2C75F200518D5F /* Pause */,
+				EE91EF902C2C75CE00518D5F /* Lose */,
+				EE91EF8F2C2C75C900518D5F /* Win */,
+			);
+			path = Results;
+			sourceTree = "<group>";
+		};
+		EE91EF8F2C2C75C900518D5F /* Win */ = {
+			isa = PBXGroup;
+			children = (
+				EE91EF922C2C760100518D5F /* WinNodeGameView.swift */,
+			);
+			path = Win;
+			sourceTree = "<group>";
+		};
+		EE91EF902C2C75CE00518D5F /* Lose */ = {
+			isa = PBXGroup;
+			children = (
+				EE91EF942C2C788600518D5F /* LoseNodeGameVIew.swift */,
+			);
+			path = Lose;
+			sourceTree = "<group>";
+		};
+		EE91EF912C2C75F200518D5F /* Pause */ = {
+			isa = PBXGroup;
+			children = (
+				EE91EF962C2C7AB700518D5F /* PauseNodeGameView.swift */,
+			);
+			path = Pause;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,12 +286,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE91EF5C2C2B4B4200518D5F /* GameViewModel.swift in Sources */,
+				EE91EF952C2C788600518D5F /* LoseNodeGameVIew.swift in Sources */,
 				EE91EF482C2B3C5500518D5F /* HomeView.swift in Sources */,
 				EE91EF5E2C2B4B5C00518D5F /* GameScene.swift in Sources */,
 				EE91EF4E2C2B421500518D5F /* ProgressItem.swift in Sources */,
 				EE91EF602C2B6F0600518D5F /* GameView.swift in Sources */,
 				EE91EF3A2C2B018F00518D5F /* ContentView.swift in Sources */,
+				EE91EF972C2C7AB700518D5F /* PauseNodeGameView.swift in Sources */,
 				EE91EF502C2B422500518D5F /* ProgressViewModel.swift in Sources */,
+				EE91EF932C2C760100518D5F /* WinNodeGameView.swift in Sources */,
 				EE91EF382C2B018F00518D5F /* Avia_NationApp.swift in Sources */,
 				EE91EF522C2B42B000518D5F /* ProgressCardsView.swift in Sources */,
 			);

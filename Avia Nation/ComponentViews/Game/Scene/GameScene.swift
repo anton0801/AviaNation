@@ -19,13 +19,38 @@ class GameScene: SKScene {
     private var errors = 0 {
         didSet {
             setUpErrors()
+            if errors == 3 {
+                loseAction()
+            }
         }
     }
     private var errorNodes: [SKNode] = []
     private var orderLabels: [SKNode] = []
     private var orderOfCards: [String] = []
     
-    private var cardsSorted = false
+    private var timer: Timer = Timer()
+    private var time: Int = 15 {
+        didSet {
+            timeLabel.text = "00:\(time)"
+            if time == 0 {
+                loseAction()
+            }
+        }
+    }
+    
+    private var cardsSorted = false {
+        didSet {
+            startTimer()
+        }
+    }
+    
+    private func startTimer() {
+        timer = .scheduledTimer(withTimeInterval: 1, repeats: true, block: { _ in
+            if !self.isPaused {
+                self.time -= 1
+            }
+        })
+    }
     
     init(gameViewModel: GameViewModel) {
         self.gameViewModel = gameViewModel

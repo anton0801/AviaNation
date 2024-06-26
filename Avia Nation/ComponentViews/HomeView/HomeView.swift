@@ -1,20 +1,49 @@
 import SwiftUI
 
 struct HomeView: View {
+    
+    @State var musicApp = UserDefaults.standard.bool(forKey: "musicApp") {
+        didSet {
+            UserDefaults.standard.set(musicApp, forKey: "musicApp")
+        }
+    }
+    
+    @State var soundApp = UserDefaults.standard.bool(forKey: "soundApp") {
+        didSet {
+            if soundApp {
+                UserDefaults.standard.set(true, forKey: "soundApp")
+            } else {
+                UserDefaults.standard.set(false, forKey: "soundApp")
+            }
+        }
+    }
+    
     var body: some View {
         NavigationView {
             VStack {
                 HStack {
                     Button {
-                         
+                        withAnimation(.linear(duration: 0.5)) {
+                            musicApp = !musicApp
+                        }
                     } label: {
-                        Image("music_enabled_button")
+                        if musicApp {
+                            Image("music_enabled_button")
+                        } else {
+                            Image("music_inactive_button")
+                        }
                     }
                     Spacer()
                     Button {
-                         
+                        withAnimation(.linear(duration: 0.5)) {
+                            soundApp = !soundApp
+                        }
                     } label: {
-                        Image("sound_enabled_button")
+                        if soundApp {
+                            Image("sound_enabled_button")
+                        } else {
+                            Image("sound_inactive_button")
+                        }
                     }
                 }
                 .padding(.horizontal)
