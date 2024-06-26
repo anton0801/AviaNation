@@ -4,7 +4,7 @@ import SwiftUI
 struct Avia_NationApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
